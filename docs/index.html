@@ -6,115 +6,36 @@
 <title>호스트, 우리가 만나다 — 에어비앤비 호스트 게더링 2026</title>
 <style>
   html,body{margin:0;background:#e8e6e1;font-family:-apple-system,"Apple SD Gothic Neo",sans-serif}
-  main{max-width:1600px;margin:0 auto;padding:24px 16px;display:flex;flex-direction:column;gap:20px}
-  nav{max-width:1600px;margin:0 auto;padding:16px 16px 0;font-size:15px;color:#555}
-  nav a{color:#333}
+  nav{position:sticky;top:0;z-index:2;background:#e8e6e1f2;backdrop-filter:blur(6px);border-bottom:1px solid #0001}
+  .bar{max-width:1600px;margin:0 auto;padding:10px 16px;display:flex;flex-wrap:wrap;gap:8px 20px;align-items:center}
+  .grp{display:flex;gap:4px}
+  button{font:inherit;font-size:15px;border:1px solid #0002;background:#f7f6f2;color:#333;border-radius:8px;padding:6px 12px;cursor:pointer}
+  button[aria-pressed=true]{background:#2a2826;color:#f7f6f2;border-color:#2a2826}
+  main{max-width:1600px;margin:0 auto;padding:20px 16px;display:flex;flex-direction:column;gap:20px;align-items:center}
+  main.phone{max-width:560px;padding:12px 0;gap:12px}
   img{display:block;width:100%;height:auto;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 </style>
 </head>
 <body>
-<nav>상세판 100장 · <a href="summary/">요약판 28장 보기</a></nav>
-<main>
-  <img src="slides/0-01-cover.png" alt="1쪽" width="1920" height="1080" loading="eager">
-  <img src="slides/0-02-contents.png" alt="2쪽" width="1920" height="1080" loading="eager">
-  <img src="slides/1a-01-opening-merits.png" alt="3쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-02-opening-chair.png" alt="4쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-03-agenda.png" alt="5쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-04-guests.png" alt="6쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-05-review-nationality.png" alt="7쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-06-travel-change.png" alt="8쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-07-stay-spend.png" alt="9쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-08-regional.png" alt="10쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-09-seoul-areas.png" alt="11쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-10-seoul-areas-detail.png" alt="12쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-11-supply.png" alt="13쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-12-supply-why.png" alt="14쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-13-supply-mindset.png" alt="15쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-14-hotels.png" alt="16쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-15-offseason.png" alt="17쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-16-refurbish.png" alt="18쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-17-review-guidebook.png" alt="19쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-18-sns-listing.png" alt="20쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-19-criteria-1.png" alt="21쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1a-20-criteria-2.png" alt="22쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-01-algorithm-axes.png" alt="23쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-02-fill-blanks.png" alt="24쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-03-setting-tips.png" alt="25쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-04-guest-favorites.png" alt="26쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-05-review-mindset.png" alt="27쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-06-review-habits.png" alt="28쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-07-title-steps.png" alt="29쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-08-title-examples.png" alt="30쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-09-title-languages.png" alt="31쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-10-desc-principles.png" alt="32쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-11-desc-ai.png" alt="33쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-12-photos.png" alt="34쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-13-booking-calendar-amenities.png" alt="35쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-14-promo-stacking.png" alt="36쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-15-pricing.png" alt="37쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1b-16-promo-price-growth.png" alt="38쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-01-guest-timeline.png" alt="39쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-02-checklist-1.png" alt="40쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-03-checklist-2.png" alt="41쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-04-checklist-3.png" alt="42쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-05-hosting-tools.png" alt="43쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-06-direct-link.png" alt="44쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-07-refund-by-date.png" alt="45쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-08-new-tools.png" alt="46쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-09-naver-datalab.png" alt="47쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-10-calendar-2027.png" alt="48쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-11-concerts.png" alt="49쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-12-to-watch.png" alt="50쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/1c-13-annual-events.png" alt="51쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-01-flow.png" alt="52쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-02-why.png" alt="53쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-03-liability.png" alt="54쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-04-coverage.png" alt="55쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-05-property.png" alt="56쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-06-liability-cover.png" alt="57쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-07-cases.png" alt="58쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-08-cases-cd.png" alt="59쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-09-limits.png" alt="60쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-10-response.png" alt="61쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-11-adjuster.png" alt="62쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-12-checklist-1.png" alt="63쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-13-checklist-2.png" alt="64쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-14-numbers-1.png" alt="65쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-15-numbers-2.png" alt="66쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-16-qa.png" alt="67쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/2-17-conclusion.png" alt="68쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-01-permit-now.png" alt="69쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-02-six-steps.png" alt="70쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-03-steps-detail-1.png" alt="71쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-04-steps-detail-2.png" alt="72쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-05-stricter-rules.png" alt="73쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-06-drawings.png" alt="74쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-07-illegal-build.png" alt="75쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-08-households.png" alt="76쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-09-location.png" alt="77쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-10-demand-niche.png" alt="78쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-11-location-detail.png" alt="79쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-12-listing-checklist.png" alt="80쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-13-finding-listings.png" alt="81쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-14-house-landlord.png" alt="82쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-15-contract.png" alt="83쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3a-16-contract-detail.png" alt="84쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-01-district-inspection.png" alt="85쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-02-songpa-steps.png" alt="86쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-03-yongsan-district-diff.png" alt="87쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-04-transfer.png" alt="88쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-05-after-permit.png" alt="89쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-06-numbers.png" alt="90쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-07-property-tips.png" alt="91쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-08-dryer-listing.png" alt="92쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-09-broker-fee.png" alt="93쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-10-cleaning.png" alt="94쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-11-devices.png" alt="95쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-12-message-content.png" alt="96쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-13-quick-reply.png" alt="97쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-14-message-reasons.png" alt="98쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/3b-15-manual-exposure.png" alt="99쪽" width="1920" height="1080" loading="lazy">
-  <img src="slides/9-01-summary.png" alt="100쪽" width="1920" height="1080" loading="lazy">
-</main>
+<nav><div class="bar">
+  <div class="grp" id="ed"><button data-v="detail">상세판 100장</button><button data-v="summary">요약판 28장</button></div>
+  <div class="grp" id="vw"><button data-v="auto">자동</button><button data-v="pc">가로</button><button data-v="phone">휴대폰</button></div>
+</div></nav>
+<main id="m"></main>
+<script>
+const D={"detail": ["0-01-cover.png", "0-02-contents.png", "1a-01-opening-merits.png", "1a-02-opening-chair.png", "1a-03-agenda.png", "1a-04-guests.png", "1a-05-review-nationality.png", "1a-06-travel-change.png", "1a-07-stay-spend.png", "1a-08-regional.png", "1a-09-seoul-areas.png", "1a-10-seoul-areas-detail.png", "1a-11-supply.png", "1a-12-supply-why.png", "1a-13-supply-mindset.png", "1a-14-hotels.png", "1a-15-offseason.png", "1a-16-refurbish.png", "1a-17-review-guidebook.png", "1a-18-sns-listing.png", "1a-19-criteria-1.png", "1a-20-criteria-2.png", "1b-01-algorithm-axes.png", "1b-02-fill-blanks.png", "1b-03-setting-tips.png", "1b-04-guest-favorites.png", "1b-05-review-mindset.png", "1b-06-review-habits.png", "1b-07-title-steps.png", "1b-08-title-examples.png", "1b-09-title-languages.png", "1b-10-desc-principles.png", "1b-11-desc-ai.png", "1b-12-photos.png", "1b-13-booking-calendar-amenities.png", "1b-14-promo-stacking.png", "1b-15-pricing.png", "1b-16-promo-price-growth.png", "1c-01-guest-timeline.png", "1c-02-checklist-1.png", "1c-03-checklist-2.png", "1c-04-checklist-3.png", "1c-05-hosting-tools.png", "1c-06-direct-link.png", "1c-07-refund-by-date.png", "1c-08-new-tools.png", "1c-09-naver-datalab.png", "1c-10-calendar-2027.png", "1c-11-concerts.png", "1c-12-to-watch.png", "1c-13-annual-events.png", "2-01-flow.png", "2-02-why.png", "2-03-liability.png", "2-04-coverage.png", "2-05-property.png", "2-06-liability-cover.png", "2-07-cases.png", "2-08-cases-cd.png", "2-09-limits.png", "2-10-response.png", "2-11-adjuster.png", "2-12-checklist-1.png", "2-13-checklist-2.png", "2-14-numbers-1.png", "2-15-numbers-2.png", "2-16-qa.png", "2-17-conclusion.png", "3a-01-permit-now.png", "3a-02-six-steps.png", "3a-03-steps-detail-1.png", "3a-04-steps-detail-2.png", "3a-05-stricter-rules.png", "3a-06-drawings.png", "3a-07-illegal-build.png", "3a-08-households.png", "3a-09-location.png", "3a-10-demand-niche.png", "3a-11-location-detail.png", "3a-12-listing-checklist.png", "3a-13-finding-listings.png", "3a-14-house-landlord.png", "3a-15-contract.png", "3a-16-contract-detail.png", "3b-01-district-inspection.png", "3b-02-songpa-steps.png", "3b-03-yongsan-district-diff.png", "3b-04-transfer.png", "3b-05-after-permit.png", "3b-06-numbers.png", "3b-07-property-tips.png", "3b-08-dryer-listing.png", "3b-09-broker-fee.png", "3b-10-cleaning.png", "3b-11-devices.png", "3b-12-message-content.png", "3b-13-quick-reply.png", "3b-14-message-reasons.png", "3b-15-manual-exposure.png", "9-01-summary.png"], "summary": ["01-cover.png", "02-contents.png", "03-s1-guests.png", "04-s1-stay-spend.png", "05-s1-regional.png", "06-s1-seoul-areas.png", "07-s1-supply-hotels.png", "08-s1-offseason.png", "09-algorithm.png", "10-settings.png", "11-title-desc.png", "12-promotion.png", "13-guest-timeline.png", "14-checklist.png", "15-hosting-tools.png", "16-calendar-2027.png", "17-s2-liability.png", "18-s2-cases.png", "19-s2-checklist.png", "20-s3-permit.png", "21-s3-location.png", "22-listing-checklist.png", "23-contract.png", "24-district-inspection.png", "25-after-permit.png", "26-numbers-tips.png", "27-ops-automation.png", "28-summary.png"]};
+const st={ed:new URLSearchParams(location.search).get("ed")||"detail",vw:localStorage.getItem("vw")||"auto"};
+function phone(){return st.vw=="phone"||(st.vw=="auto"&&matchMedia("(max-width: 760px)").matches)}
+function draw(){
+  const p=phone(), m=document.getElementById("m"); m.className=p?"phone":"";
+  const dir=st.ed=="detail"?(p?"m/slides":"slides"):(p?"m/summary":"summary/slides");
+  m.innerHTML=D[st.ed].map((f,i)=>`<img src="${dir}/${f}" alt="${i+1}쪽" loading="${i<2?"eager":"lazy"}"${p?"":' width="1920" height="1080"'}>`).join("");
+  for(const g of ["ed","vw"]) document.querySelectorAll(`#${g} button`).forEach(b=>b.setAttribute("aria-pressed",b.dataset.v==st[g]));
+}
+document.querySelectorAll("#ed button").forEach(b=>b.onclick=()=>{st.ed=b.dataset.v;history.replaceState(null,"","?ed="+st.ed);draw();scrollTo(0,0)});
+document.querySelectorAll("#vw button").forEach(b=>b.onclick=()=>{st.vw=b.dataset.v;localStorage.setItem("vw",st.vw);draw();scrollTo(0,0)});
+matchMedia("(max-width: 760px)").addEventListener("change",draw);
+draw();
+</script>
 </body>
 </html>
